@@ -1,0 +1,42 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2",
+		"ssl-linux"
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"Anaconda",
+		"AutoPEP8",
+		"BracketHighlighter",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"HTML Boilerplate",
+		"HTML Extended",
+		"HTMLBeautify",
+		"Julia",
+		"Local History",
+		"Markdown Preview",
+		"Package Control",
+		"SideBarEnhancements",
+		"SML (Standard ML)",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-pylint",
+		"SublimeLinter-ruby",
+		"SublimeREPL",
+		"Theme - Flatland",
+		"TodoReview",
+		"Tomorrow Color Schemes",
+		"TrailingSpaces"
+	]
+}
