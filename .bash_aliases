@@ -57,6 +57,8 @@ alias home='cd ~/'
 #nec
 alias update='sudo apt-get update'
 alias install='sudo apt-get install'
+alias install='sudo apt-cache search'
+alias nano='sudo nano'
 
 #git
 alias gs='git status'
