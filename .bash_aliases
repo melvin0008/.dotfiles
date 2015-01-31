@@ -18,7 +18,8 @@ mkdirandcd(){
 }
 newdev(){
     cd ~/development;
-    mkc $1;
+    mkdir $1;
+    cd $1;
     git init;
 }
 
@@ -32,7 +33,7 @@ newdevp()
 devvenv()
 {
     dev $1;
-    venv
+    venv;
 }
 
 #cd 
@@ -49,18 +50,19 @@ alias devn=newdev
 alias devnp=newdevnp
 alias devp=devvenv
 
-# Folders
+# Shortcuts
 alias download='cd ~/Downloads/'
 alias doc='cd ~/Documents/'
-alias home='cd ~/'
+alias ~='cd ~/'
+alias h='history'
+alias j='jobs'
 
 #nec
 alias update='sudo apt-get update'
 alias install='sudo apt-get install'
-alias install='sudo apt-cache search'
-alias nano='sudo nano'
-
+alias ?='ls -ax | grep $1'
 #git
+alias gi='git init'
 alias gs='git status'
 alias ga='git add --all'
 alias gc='git commit -a'
@@ -69,10 +71,14 @@ alias gpd='git push origin develop'
 alias pm='git pull origin master'
 alias pd='git pull origin develop'
 alias gr='git remote -v'
+alias gra="git remote add"
+alias grr="git remote -rm"
 
 #python
 alias venv='source venv/bin/activate'
-alias pip='sudo pip install'
+alias pi='sudo pip install'
+alias pf='pip freeze'
+alias pfr='pip freeze >requirements.txt'
 alias d='deactivate'
 
 
