@@ -1,15 +1,12 @@
 #functions
-cdintodev(){
-    cd ~/development/$1
-}
 listdev(){
-    cd ~/development/;
+    cd ~/development/$1;
     ls;
     cd ~/
 }
 devsearch(){
-    cd ~/development/;
-    ls | grep $1
+    cd ~/development/$1;
+    ls -ax | grep $2
     cd ~/
 }
 mkdirandcd(){
@@ -17,22 +14,22 @@ mkdirandcd(){
     cd $1;
 }
 newdev(){
-    cd ~/development;
-    mkdir $1;
-    cd $1;
+    cd ~/development/$1;
+    mkdir $2;
+    cd $2;
     git init;
 }
 
 newdevp()
 {
-    newdev $1;
+    newdev python $1;
     virtualenv venv;
     venv
 }
 
 devvenv()
 {
-    dev $1;
+    devpy $1;
     venv;
 }
 
@@ -43,7 +40,16 @@ alias ....='cd ../../../'
 alias mkc=mkdirandcd
 
 #dev
-alias dev=cdintodev
+alias dev='cd ~/development/'
+alias devng='cd ~/development/angularjs/'
+alias devphp='cd ~/development/php/'
+alias devpy='cd ~/development/python/'
+alias devjul='cd ~/development/julia/'
+alias devmix='cd ~/development/mix/'
+alias devruby='cd ~/development/ruby/'
+alias devsml='cd ~/development/sml'
+alias devjava='cd ~/development/java'
+alias devweb='cd ~/development/web'
 alias devl=listdev
 alias devs=devsearch
 alias devn=newdev
