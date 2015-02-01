@@ -119,3 +119,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 source ~/.rvm/scripts/rvm
+
+export PATH="~/development/julia/julia:$PATH"
+
+export PATH="~/BB10 WebWorks SDK 2.2.0.15/cordova-blackberry/bin/dependencies/bb-tools/bin:$PATH"
+
+export PATH="~/BB10 WebWorks SDK 2.2.0.15:$PATH"
