@@ -40,16 +40,17 @@ alias ....='cd ../../../'
 alias mkc=mkdirandcd
 
 #dev
-alias dev='cd ~/development/'
-alias devng='cd ~/development/angularjs/'
-alias devphp='cd ~/development/php/'
-alias devpy='cd ~/development/python/'
-alias devjul='cd ~/development/julia/'
-alias devmix='cd ~/development/mix/'
-alias devruby='cd ~/development/ruby/'
-alias devsml='cd ~/development/sml'
-alias devjava='cd ~/development/java'
-alias devweb='cd ~/development/web'
+alias dev='cd ~/development/;ls'
+alias devapp='cd ~/development/apps/;ls'
+alias devng='cd ~/development/angularjs/;ls'
+alias devphp='cd ~/development/php/;ls'
+alias devpy='cd ~/development/python/;ls'
+alias devjul='cd ~/development/julia/;ls'
+alias devmix='cd ~/development/mix/;ls'
+alias devruby='cd ~/development/ruby/;ls'
+alias devsml='cd ~/development/sml/;ls'
+alias devjava='cd ~/development/java/;ls'
+alias devweb='cd ~/development/web/;ls'
 alias devl=listdev
 alias devs=devsearch
 alias devn=newdev
@@ -81,8 +82,9 @@ alias gra="git remote add"
 alias grr="git remote -rm"
 
 #python
+alias virt='virtualenv venv'
 alias venv='source venv/bin/activate'
-alias pi='sudo pip install'
+alias pi='pip install'
 alias pf='pip freeze'
 alias pfr='pip freeze >requirements.txt'
 alias d='deactivate'
@@ -92,3 +94,10 @@ alias d='deactivate'
 alias larac='composer dump-autoload'
 alias larad='php artisan dump-autoload'
 alias cu='composer update'
+
+
+#npm
+alias snpmi='sudo npm install -g'
+alias npmi='npm install -g'
+alias nenv='source nenv/bin/activate'
+alias nirt='nodeenv --node=0.10.31 nenv'
