@@ -125,3 +125,24 @@ export PATH="~/development/julia/julia:$PATH"
 export PATH="~/BB10 WebWorks SDK 2.2.0.15/cordova-blackberry/bin/dependencies/bb-tools/bin:$PATH"
 
 export PATH="~/BB10 WebWorks SDK 2.2.0.15:$PATH"
+
+export ANDROID_HOME="/media/MELVIN/android-sdk-linux"
+
+export ANDROID_TOOLS="$ANDROID_HOME/tools"
+
+export ANDROID_PLATFORM_TOOLS="$ANDROID_HOME/platform-tools"
+
+export ANDROID_BUILD_TOOLS="$ANDROID_HOME/build-tools"
+
+export PATH="$PATH:$ANDROID_BUILD_TOOLS:$ANDROID_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS"
+
+export JAVA_HOME=~/java/jdk1.8.0_31
+
+export PATH="$PATH:$JAVA_HOME/bin"
+
+export PATH=$HOME/local/bin:$PATH
+
+export ANT_HOME="~/ant/apache-ant-1.9.4"
+
+export PATH="$PATH:$ANT_HOME/bin"
+
