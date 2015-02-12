@@ -136,13 +136,14 @@ export ANDROID_BUILD_TOOLS="$ANDROID_HOME/build-tools"
 
 export PATH="$PATH:$ANDROID_BUILD_TOOLS:$ANDROID_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS"
 
-export JAVA_HOME=~/java/jdk1.8.0_31
+export JAVA_HOME="/usr/lib/jvm/default-java/"
 
 export PATH="$PATH:$JAVA_HOME/bin"
 
-export PATH=$HOME/local/bin:$PATH
+export PATH="$HOME/local/bin:$PATH"
 
 export ANT_HOME="~/ant/apache-ant-1.9.4"
 
 export PATH="$PATH:$ANT_HOME/bin"
 
+export PATH="$PATH:/media/MELVIN/android-studio/bin/"

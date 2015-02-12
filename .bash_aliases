@@ -51,6 +51,7 @@ alias devruby='cd ~/development/ruby/;ls'
 alias devsml='cd ~/development/sml/;ls'
 alias devjava='cd ~/development/java/;ls'
 alias devweb='cd ~/development/web/;ls'
+alias devnode='cd ~/development/node/;ls'
 alias devl=listdev
 alias devs=devsearch
 alias devn=newdev
@@ -67,7 +68,9 @@ alias j='jobs'
 #nec
 alias update='sudo apt-get update'
 alias install='sudo apt-get install'
+alias upgrade='sudo apt-get upgrade'
 alias ?='ls -ax | grep $1'
+
 #git
 alias gi='git init'
 alias gs='git status'
@@ -97,7 +100,7 @@ alias cu='composer update'
 
 
 #npm
-alias snpmi='sudo npm install -g'
-alias npmi='npm install -g'
+alias ni='npm install'
+alias ngi='npm install -g'
 alias nenv='source nenv/bin/activate'
 alias nirt='nodeenv --node=0.10.31 nenv'
